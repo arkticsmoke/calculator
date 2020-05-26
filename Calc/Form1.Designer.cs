@@ -54,6 +54,7 @@
             // 
             this.input.Location = new System.Drawing.Point(12, 12);
             this.input.Name = "input";
+            this.input.ReadOnly = true;
             this.input.Size = new System.Drawing.Size(395, 20);
             this.input.TabIndex = 0;
             this.input.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;

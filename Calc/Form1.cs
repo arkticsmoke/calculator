@@ -169,7 +169,7 @@ namespace Calc
         private void button18_Click(object sender, EventArgs e)
         {
             string a = input.Text;
-            int s = Convert.ToInt32(a);
+            double s = Convert.ToDouble(a);
             double b = Math.Sqrt(s);
             string c = Convert.ToString(b);
             input.Text = c;
